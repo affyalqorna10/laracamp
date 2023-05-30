@@ -22,7 +22,7 @@
                                 </a>
                             </p>
                         </div>
-                        <div class="col-lg-6 col-12 text-center">
+                        <div class="text-center col-lg-6 col-12">
                             <a href="#">
                                 <img src="{{asset('images/banner.png')}}" class="img-fluid" alt="">
                             </a>
@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="row brands">
-                <div class="col-lg-12 col-12 text-center">
+                <div class="text-center col-lg-12 col-12">
                     <img src="{{asset('images/brands.png')}}" alt="">
                 </div>
             </div>
@@ -40,7 +40,7 @@
 
     <section class="benefits">
         <div class="container">
-            <div class="row text-center pb-70">
+            <div class="text-center row pb-70">
                 <div class="col-lg-12 col-12 header-wrap">
                     <p class="story">
                         OUR SUPER BENEFITS
@@ -102,10 +102,10 @@
     <section class="steps">
         <div class="container">
             <div class="row item-step pb-70">
-                <div class="col-lg-6 col-12 text-center">
+                <div class="text-center col-lg-6 col-12">
                     <img src="{{asset('images/step1.png')}}" class="cover" alt="">
                 </div>
-                <div class="col-lg-6 col-12 text-left copywriting">
+                <div class="text-left col-lg-6 col-12 copywriting">
                     <p class="story">
                         BETTER CAREER
                     </p>
@@ -123,7 +123,7 @@
                 </div>
             </div>
             <div class="row item-step pb-70">
-                <div class="col-lg-6 col-12 text-left copywriting pl-150">
+                <div class="text-left col-lg-6 col-12 copywriting pl-150">
                     <p class="story">
                         STUDY HARDER
                     </p>
@@ -139,16 +139,16 @@
                         </a>
                     </p>
                 </div>
-                <div class="col-lg-6 col-12 text-center">
+                <div class="text-center col-lg-6 col-12">
                     <img src="{{asset('images/step2.png')}}" class="cover" alt="">
                 </div>
 
             </div>
             <div class="row item-step">
-                <div class="col-lg-6 col-12 text-center">
+                <div class="text-center col-lg-6 col-12">
                     <img src="{{asset('images/step3.png')}}" class="cover" alt="">
                 </div>
-                <div class="col-lg-6 col-12 text-left copywriting">
+                <div class="text-left col-lg-6 col-12 copywriting">
                     <p class="story">
                         END GAME
                     </p>
@@ -175,7 +175,7 @@
                     <p class="story">
                         GOOD INVESTMENT
                     </p>
-                    <h2 class="primary-header text-white">
+                    <h2 class="text-white primary-header">
                         Start Your Journey
                     </h2>
                     <p class="support">
@@ -191,13 +191,13 @@
                     <div class="row">
                         <div class="col-lg-6 col-12">
                             <div class="table-pricing paket-gila">
-                                <p class="story text-center">
+                                <p class="text-center story">
                                     GILA BELAJAR
                                 </p>
-                                <h1 class="price text-center">
+                                <h1 class="text-center price">
                                     $280K
                                 </h1>
-                                <div class="item-benefit-pricing mb-4">
+                                <div class="mb-4 item-benefit-pricing">
                                     <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
                                         Pro Techstack Kit
@@ -205,7 +205,7 @@
                                     <div class="clear"></div>
                                     <div class="divider"></div>
                                 </div>
-                                <div class="item-benefit-pricing mb-4">
+                                <div class="mb-4 item-benefit-pricing">
                                     <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
                                         iMac Pro 2021 & Display
@@ -213,7 +213,7 @@
                                     <div class="clear"></div>
                                     <div class="divider"></div>
                                 </div>
-                                <div class="item-benefit-pricing mb-4">
+                                <div class="mb-4 item-benefit-pricing">
                                     <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
                                         1-1 Mentoring Program
@@ -221,7 +221,7 @@
                                     <div class="clear"></div>
                                     <div class="divider"></div>
                                 </div>
-                                <div class="item-benefit-pricing mb-4">
+                                <div class="mb-4 item-benefit-pricing">
                                     <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
                                         Final Project Certificate
@@ -229,7 +229,7 @@
                                     <div class="clear"></div>
                                     <div class="divider"></div>
                                 </div>
-                                <div class="item-benefit-pricing mb-4">
+                                <div class="mb-4 item-benefit-pricing">
                                     <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
                                         Offline Course Videos
@@ -237,7 +237,7 @@
                                     <div class="clear"></div>
                                     <div class="divider"></div>
                                 </div>
-                                <div class="item-benefit-pricing mb-4">
+                                <div class="mb-4 item-benefit-pricing">
                                     <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
                                         Future Job Opportinity
@@ -245,7 +245,7 @@
                                     <div class="clear"></div>
                                     <div class="divider"></div>
                                 </div>
-                                <div class="item-benefit-pricing mb-4">
+                                <div class="mb-4 item-benefit-pricing">
                                     <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
                                         Premium Design Kit
@@ -261,7 +261,7 @@
                                     <div class="clear"></div>
                                 </div>
                                 <p>
-                                    <a href="{{route('checkout')}}" class="btn btn-master btn-primary w-100 mt-3">
+                                    <a href="{{route('checkout.create', 'gila-belajar')}}" class="mt-3 btn btn-master btn-primary w-100">
                                         Take This Plan
                                     </a>
                                 </p>
@@ -269,13 +269,13 @@
                         </div>
                         <div class="col-lg-6 col-12">
                             <div class="table-pricing paket-biasa">
-                                <p class="story text-center">
+                                <p class="text-center story">
                                     BARU MULAI
                                 </p>
-                                <h1 class="price text-center">
+                                <h1 class="text-center price">
                                     $140K
                                 </h1>
-                                <div class="item-benefit-pricing mb-4">
+                                <div class="mb-4 item-benefit-pricing">
                                     <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
                                         1-1 Mentoring Program
@@ -283,7 +283,7 @@
                                     <div class="clear"></div>
                                     <div class="divider"></div>
                                 </div>
-                                <div class="item-benefit-pricing mb-4">
+                                <div class="mb-4 item-benefit-pricing">
                                     <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
                                         Final Project Certificate
@@ -291,7 +291,7 @@
                                     <div class="clear"></div>
                                     <div class="divider"></div>
                                 </div>
-                                <div class="item-benefit-pricing mb-4">
+                                <div class="mb-4 item-benefit-pricing">
                                     <img src="{{asset('images/ic_check.svg')}}" alt="">
                                     <p>
                                         Offline Course Videos
@@ -307,7 +307,7 @@
                                     <div class="clear"></div>
                                 </div>
                                 <p>
-                                    <a href="{{route('checkout')}}" class="btn btn-master btn-secondary w-100 mt-3">
+                                    <a href="{{route('checkout.create', 'baru-mulai')}}" class="mt-3 btn btn-master btn-secondary w-100">
                                         Start With This Plan
                                     </a>
                                 </p>
@@ -317,7 +317,7 @@
                 </div>
             </div>
             <div class="row pb-70">
-                <div class="col-lg-12 col-12 text-center">
+                <div class="text-center col-lg-12 col-12">
                     <img src="{{asset('images/brands.png')}}" height="30" alt="">
                 </div>
             </div>
@@ -326,7 +326,7 @@
 
     <section class="testimonials">
         <div class="container">
-            <div class="row text-center pb-70">
+            <div class="text-center row pb-70">
                 <div class="col-lg-12 col-12 header-wrap">
                     <p class="story">
                         SUCCESS STUDENTS
